@@ -1,0 +1,25 @@
+<section class="edit-thought">
+    <div class="header">
+        <div class="title">
+            <h2>Editar Pensamento:</h2>
+        </div>
+
+        <div class="form">
+            <form action="/thoughts/update/{{ thought.id }}" method="post">
+                <div class="form-field">
+                    <label for="title">Título:</label>
+                    <input type="text" name="title" value="{{ thought.title }}" placeholder="Digite o título do pensamento">
+                </div>
+
+                <div class="form-field">
+                    <label for="title">Descrição:</label>
+                    <input type="text" name="description" value="{{ thought.description }}" placeholder="Digite a sua descrição">
+                </div>
+
+                <div class="form-button">
+                    <button type="submit">Criar Pensamento</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</section>

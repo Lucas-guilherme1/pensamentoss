@@ -1,0 +1,31 @@
+{
+  "name": "pensamentos",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "node --watch src/server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "express-handlebars": "^7.1.2",
+    "mysql2": "^3.6.2",
+    "nodemon": "^3.0.1",
+    "sequelize": "^6.33.0"
+  },
+  "devDependencies": {
+    "sequelize-cli": "^6.6.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Eliassx/pensamentos.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Eliassx/pensamentos/issues"
+  },
+  "homepage": "https://github.com/Eliassx/pensamentos#readme",
+  "description": ""
+}

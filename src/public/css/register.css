@@ -1,0 +1,62 @@
+.register-thought{
+    display: grid;
+    grid-template-rows: 120px 120px;
+    grid-template-columns: 1140px;
+
+    justify-content: space-around;
+}
+
+.register-thought .header{
+    padding: 32px 0;
+}
+
+.register-thought .header .title h2{
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    color: #fff;
+    font-size: 32px;
+}
+
+.register-thought .header .title h2::before{
+    content: "";
+    width: 3px;
+    height: 32px;
+    background-color: #068fff;
+    display: block;
+}
+
+.register-thought .form form .form-field{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    padding-bottom: 24px;
+}
+
+.register-thought .form form .form-field input{
+    background: none;
+    border: 2px solid #e4f1ff;
+    padding: 8px;
+    font-size: 16px;
+    color: #e4f1ff;
+    outline: none;
+}
+
+.register-thought .form form .form-button{
+    padding: 12px 0;
+}
+
+.register-thought .form form .form-button button{
+    background: none;
+    border: 2px solid #068fff;
+    padding: 12px;
+    color: #068fff;
+    font-size: 16px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.register-thought .form form .form-button button:hover{
+    background-color: #068fff;
+    color: #fff;
+}

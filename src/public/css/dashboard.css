@@ -1,0 +1,83 @@
+.dashboard{
+    display: grid;
+    grid-template-rows: 120px 120px;
+    grid-template-columns: 1140px;
+
+    justify-content: space-around;
+}
+
+.dashboard .header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 130px;
+    padding: 32px 0;
+}
+
+.dashboard .header .title h2{
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    color: #fff;
+    font-size: 32px;
+}
+
+.dashboard .header .title h2::before{
+    content: "";
+    height: 32px;
+    width: 3px;
+    background-color: #068fff;
+    display: block;
+}
+
+.dashboard .header .button-create a{
+    text-decoration: none;
+    border: 2px solid #068fff;
+    padding: 8px;
+    color: #068fff;
+}
+
+.dashboard .header .button-create a:hover{
+    background-color: #068fff;
+    color: #fff;
+}
+
+.dashboard .content{
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    padding: 32px 0;
+}
+
+.dashboard .content .subtitle p{
+    color: #fff;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.dashboard .content .thoughts-list{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 100px;
+    border-bottom: 2px solid #068fff;
+    padding-bottom: 16px;
+    color: #068fff;
+}
+
+.dashboard .content .thoughts-list .buttons{
+    display: flex;
+    gap: 16px;
+}
+
+.dashboard .content .thoughts-list .buttons a{
+    text-decoration: none;
+    border: 2px solid #068fff;
+    padding: 8px;
+    color: #068fff;
+}
+
+.dashboard .content .thoughts-list .buttons a:hover{
+    background-color: #068fff;
+    color: #fff;
+}
